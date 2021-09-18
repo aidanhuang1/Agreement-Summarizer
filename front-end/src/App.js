@@ -6,7 +6,7 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // Tailwind CSS Style Sheet
-import 'assets/styles/tailwind.css';
+import 'tailwind.css';
 
 function App() {
     return (

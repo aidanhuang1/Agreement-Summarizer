@@ -505,11 +505,20 @@ video {
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
 }
+.ml-4{
+	margin-left: 1rem;
+}
 .ml-auto{
 	margin-left: auto;
 }
 .mr-auto{
 	margin-right: auto;
+}
+.ml-24{
+	margin-left: 6rem;
+}
+.mt-6{
+	margin-top: 1.5rem;
 }
 .mb-5{
 	margin-bottom: 1.25rem;
@@ -531,30 +540,6 @@ video {
 }
 .mt-24{
 	margin-top: 6rem;
-}
-.ml-4{
-	margin-left: 1rem;
-}
-.ml-8{
-	margin-left: 2rem;
-}
-.ml-16{
-	margin-left: 4rem;
-}
-.ml-20{
-	margin-left: 5rem;
-}
-.ml-24{
-	margin-left: 6rem;
-}
-.mt-3{
-	margin-top: 0.75rem;
-}
-.mt-5{
-	margin-top: 1.25rem;
-}
-.mt-6{
-	margin-top: 1.5rem;
 }
 .block{
 	display: block;
@@ -589,12 +574,6 @@ video {
 .w-16{
 	width: 4rem;
 }
-.w-4{
-	width: 1rem;
-}
-.w-9{
-	width: 2.25rem;
-}
 .max-w-7xl{
 	max-width: 80rem;
 }
@@ -619,11 +598,11 @@ video {
 .gap-8{
 	gap: 2rem;
 }
-.rounded-full{
-	border-radius: 9999px;
-}
 .rounded{
 	border-radius: 0.25rem;
+}
+.rounded-full{
+	border-radius: 9999px;
 }
 .border{
 	border-width: 1px;
@@ -640,6 +619,14 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
+.bg-white{
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+.bg-blue-500{
+	--tw-bg-opacity: 1;
+	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
 .bg-gray-500{
 	--tw-bg-opacity: 1;
 	background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
@@ -651,10 +638,6 @@ video {
 .bg-green-500{
 	--tw-bg-opacity: 1;
 	background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
-}
-.bg-blue-500{
-	--tw-bg-opacity: 1;
-	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
 }
 .bg-indigo-500{
 	--tw-bg-opacity: 1;
@@ -672,10 +655,6 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
 }
-.bg-white{
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
 .bg-landing-background{
 	background-image: linear-gradient(rgba(0,0,0, 0.00), rgba(0,0,0, 0.00)), url(https://cdn.discordapp.com/attachments/885954880290824194/888844289650597898/unknown.png);
 }
@@ -687,9 +666,6 @@ video {
 }
 .p-3{
 	padding: 0.75rem;
-}
-.p-9{
-	padding: 2.25rem;
 }
 .px-4{
 	padding-left: 1rem;
@@ -728,25 +704,13 @@ video {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
-.text-xl{
-	font-size: 1.25rem;
-	line-height: 1.75rem;
-}
 .text-5xl{
 	font-size: 3rem;
 	line-height: 1;
 }
-.text-2xl{
-	font-size: 1.5rem;
-	line-height: 2rem;
-}
 .text-3xl{
 	font-size: 1.875rem;
 	line-height: 2.25rem;
-}
-.text-4xl{
-	font-size: 2.25rem;
-	line-height: 2.5rem;
 }
 .font-medium{
 	font-weight: 500;
@@ -758,6 +722,10 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
+.text-black{
+	--tw-text-opacity: 1;
+	color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
 .text-white{
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -765,10 +733,6 @@ video {
 .text-gray-200{
 	--tw-text-opacity: 1;
 	color: rgba(229, 231, 235, var(--tw-text-opacity));
-}
-.text-black{
-	--tw-text-opacity: 1;
-	color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 .shadow-md{
 	--tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);

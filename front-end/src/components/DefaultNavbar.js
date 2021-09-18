@@ -15,7 +15,6 @@ import Dropdown from '@material-tailwind/react/Dropdown';
 import DropdownItem from '@material-tailwind/react/DropdownItem';
 import Icon from '@material-tailwind/react/Icon';
 import Button from '@material-tailwind/react/Button';
-import Logo from '../assets/img/argonlogowhite.png';
 
 export default function DefaultNavbar() {
     const [openNavbar, setOpenNavbar] = useState(false);
