@@ -3,6 +3,7 @@ import DefaultFooter from "components/DefaultFooter";
 import Header from "components/landing/Header";
 import WorkingSection from "components/landing/WorkingSection";
 import React from "react";
+import DefaultForm from "components/DefaultForm";
 
 export default function Landing() {
   return (
@@ -12,9 +13,10 @@ export default function Landing() {
       </div>
 
       <Header />
-      
+
       <WorkingSection />
       <DefaultFooter />
+      <DefaultForm />
     </>
   );
 }
