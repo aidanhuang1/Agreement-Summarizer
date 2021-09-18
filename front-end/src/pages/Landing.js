@@ -15,8 +15,9 @@ export default function Landing() {
       <Header />
 
       <WorkingSection />
-      <DefaultFooter />
       <DefaultForm />
+      <DefaultFooter />
+      
     </>
   );
 }

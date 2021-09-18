@@ -14,7 +14,7 @@ export default function Header() {
 
             <div className="text-gray-200">
               <p color="gray-200" className="text-5xl mt-6">
-                Understanding Agreements, One Sentence at a Time!
+                Understanding User Agreements, One Sentence at a Time!
               </p>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 text-3xl mt-6 rounded">
                 Get Started
