@@ -1,12 +1,16 @@
-import './App.css';
-
-
-
+import "./App.css";
+import NavbarPage from "./components/Header/NavbarPage";
+import BigPicture from "./components/Header/BigPicture";
 function App() {
   return (
-    <div class='button'>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
-      
+    <div>
+      <NavbarPage>
+        
+      </NavbarPage>
+      <BigPicture></BigPicture>
+      <div>
+        
+      </div>
     </div>
   );
 }
