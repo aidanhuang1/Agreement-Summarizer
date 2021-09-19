@@ -60,7 +60,16 @@ def summarize(text: str, num_sentences: int = 10, min_sentence_length: int = 30)
     summary = ' '.join(summary_sentences)
     return summary
 
+text_file = open("finalproduct.txt", "w")
+
 def print_points(summary_text):
+    result = ""
     sentences = nltk.sent_tokenize(summary_text)
     for sentence in sentences:
-        print(f"--> {sentence} \n")
+        result+="\n -"+sentence
+    print(result) #result is the final product, export to text file
+    return result
+
+x = summarize(text, num_sentences=8)
+text_file.write(print_points(x))
+text_file.close()

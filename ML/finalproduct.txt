@@ -1,0 +1,9 @@
+
+ -You shall provide us with all necessary cooperation in relation to this Agreement and access to such information as may be required by us.
+ -You shall use the API in accordance with the reasonable directions given by us from time to time.
+ -We may offer to transfer the Service and associated Forum Data to the Forum User with the highest number of votes from other Forum Users in the poll.
+ -Each party may be given access to Confidential Information from the other party in order to perform its obligations under these terms and conditions.
+ -The poll will be accompanied and may be subsequently updated with information from us to Forum Users about the requirement for a new forum operator and the transfer process.
+ -This Agreement shall commence on the Start Date and shall continue unless terminated in accordance with clause 4.2 or clause 19.
+ -Each party shall take a back-up of its own Confidential Information and shall not be responsible to the other for any loss, destruction, alteration or disclosure of Confidential Information.
+ -You may amend our precedent standard form terms of use, privacy policy and cookie policy as you believe is necessary.
