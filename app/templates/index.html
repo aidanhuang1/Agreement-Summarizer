@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/1037d52a82.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="header">
+    </div>
+
+    <form action="/summarize" class="summarize">
+        <div class="top">
+            <div class="top-left">
+                <div class="dropdown is-hoverable">
+                    <div class="dropdown-trigger">
+                        <button class="button p-5 is-size-6 dropdown-btn" aria-haspopup="true" aria-controls="dropdown-menu3">
+                            <span>Choose Company</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                Overview
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                Modifiers
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-right">
+                <div class="file has-name is-boxed">
+                    <label class="file-label">
+                        <input class="file-input p-5" type="file" name="file">
+                        <span class="file-cta">
+                            <span class="file-icon">
+                                <i class="fas fa-upload"></i>
+                            </span>
+                            <span class="file-label">
+                                Choose a file…
+                            </span>
+                        </span>
+                        <!-- <span class="file-name">
+                                </span> -->
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+
+            <div class="bottom-left">
+                <div class="dropdown is-hoverable">
+                    <div class="dropdown-trigger">
+                        <button class="button p-5 is-size-6 dropdown-btn" aria-haspopup="true" aria-controls="dropdown-menu3">
+                            <span>Number of Sentences</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                Overview
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                Modifiers
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-right">
+                <div class="dropdown is-hoverable">
+                    <div class="dropdown-trigger">
+                        <button class="button p-5 is-size-6 dropdown-btn" aria-haspopup="true" aria-controls="dropdown-menu3">
+                            <span>Translate</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                Overview
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                Modifiers
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <button class="button is-info summarize-btn p-5 is-size-5" type="submit">Summarize</button>
+
+            {% if text == "" %}
+                <div class="content-left">
+                        <p class="summary-text">
+                            {{ text}}
+                        </p>
+                    
+                </div>
+            {% else %}
+
+            {% endif %}
+            
+
+
+        </div>
+
+
+    </form>
+
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="/node_modules/bulma-extensions/bulma-calendar/dist/bulma-calendar.min.js"></script>
+
+</body>
+
+</html>
