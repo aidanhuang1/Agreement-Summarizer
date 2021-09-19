@@ -17,7 +17,7 @@ export default function Header() {
                 Understanding User Agreements, One Sentence at a Time!
               </p>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 text-3xl mt-6 rounded">
-                Get Started
+                <a href="#middle">Get Started</a>
               </button>
             </div>
           </div>

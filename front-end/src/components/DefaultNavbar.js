@@ -24,7 +24,6 @@ export default function DefaultNavbar() {
             <NavbarContainer>
                 <NavbarWrapper>
                     <a
-                        href="https://material-tailwind.com?ref=mtk"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -41,7 +40,6 @@ export default function DefaultNavbar() {
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
                             <NavLink
-                                href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
@@ -50,7 +48,6 @@ export default function DefaultNavbar() {
                                 &nbsp;Use
                             </NavLink>
                             <NavLink
-                                href="https://material-tailwind.com/components?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
@@ -62,7 +59,6 @@ export default function DefaultNavbar() {
                             
                             
                             <a
-                                href="https://www.creative-tim.com/product/material-tailwind-kit-react"
                                 target="_blank"
                                 rel="noreferrer"
                             >

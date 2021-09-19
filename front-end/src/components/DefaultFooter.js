@@ -14,7 +14,6 @@ export default function DefaultFooter() {
             <div class="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100">
               <a
                 class="hover:text-primary-gray-20"
-                href="https://github.com/Charlie85270/tail-kit"
               >
                 <span class="sr-only">View on GitHub</span>
                 <svg

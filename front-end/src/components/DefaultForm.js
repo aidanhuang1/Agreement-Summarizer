@@ -20,28 +20,28 @@ class App extends Component {
              
               <select class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
                 <option>Choose Company</option>
-                <option>Red</option>
-                <option>Blue</option>
-                <option>Yellow</option>
-                <option>Black</option>
-                <option>Orange</option>
-                <option>Purple</option>
-                <option>Gray</option>
-                <option>White</option>
+                <option>Amazon</option>
+                <option>Apple</option>
+                <option>Facebook</option>
+                <option>Netflix</option>
+                <option>Walmart</option>
+                <option>Spotify</option>
+                <option>Google</option>
+                <option>Dropbox</option>
               </select>
             </div>
 
             <div class="relative inline-flex">
                 <select class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
                 <option># of sentences</option>
-                <option>Red</option>
-                <option>Blue</option>
-                <option>Yellow</option>
-                <option>Black</option>
-                <option>Orange</option>
-                <option>Purple</option>
-                <option>Gray</option>
-                <option>White</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
               </select>
             </div>
 
@@ -81,90 +81,35 @@ class App extends Component {
               <div class="container px-5 py-24 mx-auto">
                 <div class="text-center mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
-                    Frequently Asked Question
+                    Frequently Asked Questions
                   </h1>
-                  <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                    The most common questions about how our business works and
-                    what can do for you.
-                  </p>
+
                 </div>
                 <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                   <div class="w-full lg:w-1/2 px-4 py-2">
                     <details class="mb-4">
                       <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                        How Long is this site live?
+                        How do you use the summarizer?
                       </summary>
 
                       <span>
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
+                        You can copy and paste the terms & conditions from another website, or you can upload a similar file (must be a text file)!
                       </span>
                     </details>
                     <details class="mb-4">
                       <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
-                        Can I install/upload anything I want on there?
+                        How long should I wait for the summarizer to finish?
                       </summary>
 
                       <span>
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
+                        1 second... Our natural language processing model is very fast!
                       </span>
                     </details>
-                    <details class="mb-4">
-                      <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                        How can I migrate to another site?
-                      </summary>
-
-                      <span>
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
-                      </span>
-                    </details>
+                    
                   </div>
-                  <div class="w-full lg:w-1/2 px-4 py-2">
-                    <details class="mb-4">
-                      <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                        Can I change the domain you give me?
-                      </summary>
 
-                      <span class="px-4 py-2">
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
-                      </span>
-                    </details>
-                    <details class="mb-4">
-                      <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                        How many sites I can create at once?
-                      </summary>
 
-                      <span class="px-4 py-2">
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
-                      </span>
-                    </details>
-                    <details class="mb-4">
-                      <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                        How can I communicate with you?
-                      </summary>
 
-                      <span class="px-4 py-2">
-                        Laboris qui labore cillum culpa in sunt quis sint
-                        veniam. Dolore ex aute deserunt esse ipsum elit aliqua.
-                        Aute quis minim velit nostrud pariatur culpa magna in
-                        aute.
-                      </span>
-                    </details>
-                  </div>
                 </div>
               </div>
             </section>
