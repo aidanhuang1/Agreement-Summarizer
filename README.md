@@ -1,4 +1,4 @@
-# Agreement-Summarizer
+# Argon
 
 ## 💡 Inspiration
 A genuine problem faced by millions of people every day. There was not enough awareness and useful tools for navigating the confusing terrain of online agreements. Big tech companies often collect and store large amounts of user data, which users consent to unknowingly. 
