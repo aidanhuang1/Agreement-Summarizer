@@ -8,27 +8,7 @@ export default function DefaultFooter() {
           <div class="md:hidden mt-7 mx-auto w-11 h-px rounded-full"></div>
           <div class="mt-4 md:mt-0 flex flex-col md:flex-row">
             <nav class="flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-gray-100 md:pr-5">
-              <a
-                aria-current="page"
-                href="#"
-                class="hover:text-gray-700 dark:hover:text-white"
-              >
-                Components
-              </a>
-              <a
-                aria-current="page"
-                href="#"
-                class="hover:text-gray-700 dark:hover:text-white"
-              >
-                Contacts
-              </a>
-              <a
-                aria-current="page"
-                href="#"
-                class="hover:text-gray-700 dark:hover:text-white"
-              >
-                Customization
-              </a>
+            
             </nav>
             <div class="md:hidden mt-4 mx-auto w-11 h-px rounded-full"></div>
             <div class="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100">
@@ -64,16 +44,7 @@ export default function DefaultFooter() {
             </div>
             <div class="md:hidden mt-4 mx-auto w-11 h-px rounded-full "></div>
             <div class="mt-7 md:mt-0 flex-1 flex flex-col items-center justify-center md:items-start md:pl-5">
-              <span class="">© 2021</span>
-              <span class="mt-7 md:mt-1">
-                Created by
-                <a
-                  class="underline hover:text-primary-gray-20"
-                  href="https://www.linkedin.com/in/crabiller/"
-                >
-                  Charlie
-                </a>
-              </span>
+            
             </div>
           </div>
         </div>
